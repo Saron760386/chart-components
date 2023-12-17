@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Poppins:ital,wght@1,200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    /* font-family: 'Poppins', sans-serif; */
+    background-color: hsl(27, 66%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* font-weight: 500; */
+    align-items: center;
+}
+.container{
+    width: 31.5%;
+    height: 15vh;
+    border-radius: 19px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    background-color:  hsl(10, 79%, 65%);
+    justify-content: space-between;
+    align-items: center;
+}
+.balance{
+  padding-left: 30px;
+}
+.balance p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #ffffff;
+}
+.balance h3{
+    color: #ffffff;
+    font-size: 23px;
+    letter-spacing: 2.3px;
+    font-weight: 600;
+}
+.round_image{
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.round_image svg{
+    width: 100%;
+}
+.wrapper{
+    width: 31.5%;
+    height: 60vh;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color:white;
+    font-weight: 400;
+    /* font-family: poppins,sans-serif; */
+}
+.wrapper h4{
+    font-size:23px;
+    font-weight: 800;
+    padding-left: 28px;
+    padding-top: 15px;
+    /* word-spacing: 3px; */
+    color: rgb(27, 25, 25);
+    /* font-family: DM Sans,sans-serif; */
+    font-family: poppins,sans-serif;
+    /* text-align: center; */
+}
+.day_temperature{
+    width: 100%;
+    height: 29vh;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    /* border: 1px solid blue; */
+    padding-left: 25px;
+    gap: 2px;
+}
+.monday{
+    padding: 5px 5px 0px 5px;
+}
+.monday .monday1{
+    width: 100%;
+    height: 5vh;
+    border-radius: 4px;
+    background-color:  hsl(10, 79%, 65%);
+    padding: 20px;
+}
+.monday p{
+    font-size: 11px;
+    color: gray;
+    padding-top: 3px;
+    text-align: center;
+}
+.tuesday{
+    padding: 5px 5px 2px 5px;
+}
+.tuesday .tuesday1{
+    width: 100%;
+    height: 10.6vh;
+    padding: 20px;
+    border-radius: 4px;
+    background-color:  hsl(10, 79%, 65%);
+}
+.tuesday p{
+    font-size: 11px;
+    color: gray;
+    padding-top: 3px;
+    text-align: center;
+}
+.wednesday{
+    padding: 5px 5px 0px 5px;
+}
+.wed{
+    width: 100%;
+    padding: 5px 5px 0px 5px;
+    display: none;
+    height: 30px;
+    background-color: rgba(18, 17, 17, 0.867);
+    margin-bottom: 5px;
+    /* margin-right: 10px; */
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+}
+.wednesday .wednesday1{
+    width: 86%;
+    height: 17vh;
+    padding: 20px;
+    border-radius: 4px;
+    background-color:  hsl(186, 34%, 60%);
+}
+.wednesday .wednesday1:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.wednesday p{
+    font-size: 11px;
+    color: gray;
+    padding-top: 3px;
+    text-align: center;
+}
+.thusday{
+    padding: 5px 5px 0px 5px;
+}
+.thu{
+    width: 100%;
+    padding: 5px 5px 0px 5px;
+    display: none;
+    height: 30px;
+    background-color: rgba(18, 17, 17, 0.867);
+    margin-bottom: 5px;
+    /* margin-right: 10px; */
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+}
+.thusday .thusday1{
+    width: 86%;
+    height: 10vh;
+    padding: 20px;
+    border-radius: 4px;
+    background-color:  hsl(10, 79%, 65%);
+}
+.thusday .thusday1:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.thusday p{
+    font-size: 11px;
+    padding-top: 3px;
+    color: gray;
+    text-align: center;
+}
+.friday{
+    padding: 5px 5px 0px 5px;
+}
+.friday .friday1{
+    width: 100%;
+    height: 8vh;
+    padding: 20px;
+    border-radius: 4px;
+    background-color:  hsl(10, 79%, 65%);
+}
+.friday p{
+    font-size: 11px;
+    padding-top: 3px;
+    color: gray;
+    text-align: center;
+}
+.saturday{
+    padding: 5px 5px 0px 5px;
+}
+.saturday .saturday1{
+    width: 100%;
+    height: 13vh;
+    padding: 20px;
+    background-color:  hsl(10, 79%, 65%);
+    border-radius: 4px;
+}
+.saturday p{
+    font-size: 11px;
+    color: gray;
+    padding-top: 3px;
+    text-align: center;
+}
+.sunday{
+    padding: 5px 5px 0px 5px;
+}
+.sunday .sunday1{
+    width: 100%;
+    height: 9vh;
+    padding: 20px;
+    border-radius: 4px;
+    background-color:  hsl(10, 79%, 65%);
+}
+.sunday p{
+    font-size: 11px;
+    color: gray;
+    padding-top: 3px;
+    text-align: center;
+}
+.Total_month{
+    width: 86%;
+    height: 13vh;
+    justify-content: space-between;
+    align-items: flex-end;
+    display: flex;
+    border-top: 1px solid gray;
+    margin: 25px 0px 0px 30px;
+}
+.month p{
+    font-size: 13px;
+    color: gray;
+    word-spacing: 1.2px;
+    /* letter-spacing: 1px; */
+}
+.month h1{
+    font-family: Arial,sans-serif;
+    font-weight: 600;
+    color: rgb(20, 20, 20);
+    padding-top: 3.5px;
+}
+.last_month{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+
+
+}
+.last_month h3{
+    font-size: 15px;
+    color: rgb(28, 26, 26);
+}
+.last_month p{
+    font-size: 13px;
+    color: gray;
+    word-spacing: 1.2px;
+}
+@media(max-width:760px){
+    .container{
+        width: 90%;
+        height: 17vh;
+    }
+    .balance p{
+        font-size: 23px;
+    }
+    .balance h3{
+        font-size: 37px;
+    }
+    .round_image svg{
+        width: 100%;
+    }
+
+    .wrapper{
+        width: 90%;
+        height: 69vh;
+    }
+    .wrapper h4{
+        font-size: 25px;
+        padding-top: 30px;
+        padding-right: 30px;
+    }
+    .day_temperature{
+        width: 100%;
+        height: 35vh;
+        margin-left: 10px;
+        gap: 2px;
+    }
+    .monday .monday1{
+        width: 100%;
+        height: 7.5vh;
+        padding: 25px;
+    }
+    .monday p{
+        font-size: 20px;
+    }
+    .tuesday .tuesday1{
+        width: 100%;
+        height: 14vh;
+        padding: 25px;
+    }
+    .tuesday p{
+        font-size: 20px;
+    }
+    .wed{
+        width: 100%;
+        padding: 5px;
+    }
+    .wednesday .wednesday1{
+        width: 100%;
+        height: 21vh;
+        padding: 25px;
+    }
+    .wednesday p{
+        font-size: 20px;
+    }
+    .thusday .thusday1{
+        width: 100%;
+        height: 12vh;
+        padding: 25px;
+    }
+    .thusday p{
+        font-size: 20px;
+    }
+    .friday .friday1{
+        width: 100%;
+        height: 10vh;
+        padding: 25px;
+    }
+    .friday p{
+        font-size: 20px;
+    }
+    .saturday .saturday1{
+        width: 100%;
+        height: 16vh;
+        padding: 25px;
+    }
+    .saturday p{
+        font-size: 20px;
+    }
+    .sunday .sunday1{
+        width: 100%;
+        height: 11vh;
+        padding: 25px;
+    }
+    .sunday p{
+        font-size: 20px;
+    }
+    .month p{
+        font-size: 16px;
+    }
+    .month h1{
+        font-size: 30px;
+    }
+    .last_month h3{
+        font-size: 20px;
+    }
+    .last_month p{
+        font-size: 16px;
+    }
+}
+@media(max-width:510px){
+    .container{
+        width: 90%;
+        height: 17vh;
+    }
+    .balance p{
+        font-size: 17px;
+    }
+    .balance h3{
+        font-size: 27px;
+    }
+    .round_image svg{
+        width: 100%;
+        padding-right: 15px;
+    }
+
+    .wrapper{
+        width: 90%;
+        height: 69vh;
+    }
+    .wrapper h4{
+        font-size: 21px;
+        padding-top: 30px;
+        padding-right: 20px;
+    }
+    .day_temperature{
+        width: 100%;
+        height: 35vh;
+        margin-left: 10px;
+        gap: 0px;
+    }
+    .monday .monday1{
+        width: 100%;
+        height: 7.5vh;
+        padding: 10px;
+    }
+    .monday p{
+        font-size: 20px;
+    }
+    .tuesday .tuesday1{
+        width: 100%;
+        height: 14vh;
+        padding: 20px;
+    }
+    .tuesday p{
+        font-size: 20px;
+    }
+    .wed{
+        width: 100%;
+        padding: 5px;
+    }
+    .wednesday .wednesday1{
+        width: 100%;
+        height: 21vh;
+        padding: 20px;
+    }
+    .wednesday p{
+        font-size: 20px;
+    }
+    .thusday .thusday1{
+        width: 100%;
+        height: 12vh;
+        padding: 20px;
+    }
+    .thusday p{
+        font-size: 20px;
+    }
+    .friday .friday1{
+        width: 100%;
+        height: 10vh;
+        padding: 20px;
+    }
+    .friday p{
+        font-size: 20px;
+    }
+    .saturday .saturday1{
+        width: 100%;
+        height: 16vh;
+        padding: 20px;
+    }
+    .saturday p{
+        font-size: 20px;
+    }
+    .sunday .sunday1{
+        width: 100%;
+        height: 11vh;
+        padding: 20px;
+    }
+    .sunday p{
+        font-size: 20px;
+    }
+    .month p{
+        font-size: 20px;
+    }
+    .month h1{
+        font-size: 35px;
+    }
+    .last_month h3{
+        font-size: 25px;
+    }
+    .last_month p{
+        font-size: 20px;
+    }
+}
+@media(max-width:445px){
+    .container{
+        width: 100%;
+        height: 17vh;
+    }
+    .balance p{
+        font-size: 16px;
+    }
+    .balance h3{
+        font-size: 25px;
+    }
+    .round_image svg{
+        width: 100%;
+    }
+
+    .wrapper{
+        width: 100%;
+        height: 69vh;
+    }
+    .wrapper h4{
+        font-size: 18px;
+        padding-top: 30px;
+        padding-right: 20px;
+    }
+    .day_temperature{
+        width: 100%;
+        padding-left: 20px;
+        height: 35vh;
+        gap: 0px;
+    }
+    .monday .monday1{
+        width: 80%;
+        height: 7.5vh;
+        padding: 15px;
+    }
+    .monday p{
+        font-size: 20px;
+    }
+    .tuesday .tuesday1{
+        width: 100%;
+        height: 14vh;
+        padding: 15px;
+    }
+    .tuesday p{
+        font-size: 20px;
+    }
+    .wed{
+        width: 100%;
+        padding: 5px 7px 0px 2px;
+        font-size: 12px;
+    }
+    .wednesday .wednesday1{
+        width: 70%;
+        height: 21vh;
+        padding: 15px;
+    }
+    .wednesday p{
+        font-size: 20px;
+    }
+    .thu{
+        width: 100%;
+        padding: 5px 7px 0px 2px;
+        font-size: 12px;
+    }
+    .thusday .thusday1{
+        width: 70%;
+        height: 12vh;
+        padding: 15px;
+    }
+
+    .thusday p{
+        font-size: 20px;
+    }
+    .friday .friday1{
+        width: 100%;
+        height: 10vh;
+        padding: 15px;
+    }
+    .friday p{
+        font-size: 20px;
+    }
+    .saturday .saturday1{
+        width: 100%;
+        height: 16vh;
+        padding: 15px;
+    }
+    .saturday p{
+        font-size: 20px;
+    }
+    .sunday .sunday1{
+        width: 100%;
+        height: 11vh;
+        padding: 15px;
+    }
+    .sunday p{
+        font-size: 20px;
+    }
+    .Total_month{
+        margin-top: 30px;
+    }
+    .monday1{
+        width: 10%;
+    }
+    .month p{
+        font-size: 18px;
+    }
+    .month h1{
+        font-size: 30px;
+    }
+    .last_month h3{
+        font-size: 22px;
+    }
+    .last_month p{
+        font-size: 18px;
+    }
+}
